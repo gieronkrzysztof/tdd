@@ -18,6 +18,10 @@ namespace TestProject
         }
 
         public int Add(int valueToAdd){
+<<<<<<< HEAD
+=======
+            Value += valueToAdd;
+>>>>>>> develop
             return Value;
         }        
     }

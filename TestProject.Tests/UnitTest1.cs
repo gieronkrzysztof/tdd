@@ -1,4 +1,5 @@
 using System;
+using FluentAssertions;
 using Xunit;
 
 namespace TestProject.Tests
@@ -6,9 +7,11 @@ namespace TestProject.Tests
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void return_0__when__set_initial_data_to_0_and_expression_contains_only_init_data()
         {
+            var calculatorValue = new Calculator(0);
 
+            calculatorValue.Value.Should().Be(0);
         }
 
         [Fact]
