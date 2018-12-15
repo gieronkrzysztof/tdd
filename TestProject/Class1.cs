@@ -8,8 +8,18 @@ namespace TestProject
 
     public class Calculator
     {
-        public void AddNumbers(int a, int b){
-            throw new Exception();
+        public int Value {get; private set; }
+
+        public Calculator(int initialValue){
+            Value = initialValue;
+        }
+         public Calculator() {
+              Value = 0;
+        }
+
+        public int Add(int valueToAdd){
+            Value += valueToAdd;
+            return Value;
         }        
     }
 }
