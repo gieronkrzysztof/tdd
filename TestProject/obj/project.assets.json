@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\tdd\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "c:\\tdd\\tdd\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\tdd\\TestProject\\TestProject.csproj",
+      "projectPath": "c:\\tdd\\tdd\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\Krzysztof\\.nuget\\packages\\",
-      "outputPath": "C:\\tdd\\TestProject\\obj\\",
+      "outputPath": "c:\\tdd\\tdd\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
